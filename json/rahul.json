@@ -1,8 +1,8 @@
 {
-    "url": "http;//localhost/test.yaml",
+    "url": "https://shambhu5588.github.io/purple/json/test.yaml",
     "urls": [
         {
-            "url": "http;//localhost/test.yaml",
+            "url": "https://shambhu5588.github.io/purple/json/test.yaml",
             "name": "Foo"
         }
     ]
